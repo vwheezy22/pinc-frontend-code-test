@@ -1,0 +1,86 @@
+.content {
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border: 3px solid green;
+    width: 50%;
+    justify-content: center!important;
+}
+
+.conversation {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.conversation textarea {
+    font-size: 16px;
+    flex-direction: column;
+    overflow: auto;
+    margin: 0;
+    resize: auto;
+    padding: 2px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    cursor: text;
+    display: inline-block;
+    width: 60%;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+.nav { 
+    overflow: hidden; 
+}
+
+.nav ul {
+    position: relative;
+    float: left;
+    left: 50%;
+    list-style: none;
+    padding: 0; 
+    margin-top: 40px;
+}
+
+.nav ul li {
+    position: relative;
+    float: left;
+    right: 50%;
+    border-bottom: 4px solid #DDD;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.nav ul li a { 
+    color: #DDD;
+    display: block; 
+    text-decoration: none;
+}
+
+.nav ul .active a {
+    color: rgb(80, 43, 151);
+}
+
+.nav .active {
+    border-bottom: 4px solid rgb(80, 43, 151);
+}
+
+.feedHead {
+    position: relative;
+    left: 28%;
+    padding: 0; 
+}
+

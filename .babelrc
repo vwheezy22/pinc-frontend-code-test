@@ -1,0 +1,4 @@
+{
+    "presets": ["env", "react"],
+    "plugins": ["wildcard", "transform-object-rest-spread", "transform-decorators-legacy"]
+}

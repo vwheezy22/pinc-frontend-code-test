@@ -1,0 +1,83 @@
+.links {
+    align-items: center;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    background-color: rgb(103, 63, 180);
+    overflow: hidden;
+    margin: 0;
+}
+
+.links li {
+    display: inline;
+    list-style-type: none;
+}
+
+.links a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    display: inline-block;
+    /* border-bottom: 5px solid rgb(103, 63, 180); */
+}
+
+.links a.active {
+    /* background-color: #777; */
+    border-bottom: 5px solid white;
+    cursor: default;
+}
+
+.links input[type=text] {
+    margin-left: 5rem;
+    display: block;
+    width: 300px;
+    background-color: rgb(80, 43, 151);
+    padding: 8px;
+    /* float: right; */
+    justify-content: right;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,.15);
+    background-image: url('../images/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #FFF;
+    font-size: 1rem;
+    text-shadow: 0 0 0 rgb(80, 43, 151);
+    cursor: text;
+}
+
+.links input[type=text]::placeholder {
+    border: 0;
+    color: rgb(103, 63, 180);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links input[type=text]:focus {
+    background-color: #FFF;
+    color: rgb(80, 43, 151);
+    outline: none;
+    overflow: hidden;
+}
+
+.links button {
+    border-radius: 20px;
+    background-color: #FFF;
+    color: rgb(80, 43, 151);
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-weight: bold;
+}
+
+
+/* .links input[type=text]:text {
+    border: 0;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+} */
+
